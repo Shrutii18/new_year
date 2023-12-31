@@ -25,7 +25,6 @@ body {
   color: #3A99CF;
   text-align: center;
   position: absolute;
-  top: 50%;
   opacity: 0;
   animation: message 2s ease-in-out 6s forwards;
 }
@@ -90,7 +89,6 @@ body {
         color: yellow;
     }
 }
-
 .old {
   color: #fff;
   position: absolute;
@@ -104,7 +102,7 @@ body {
     top: 0%;
   }
   100% {
-    top: -250%;
+    top: -500%;
   }
 }
 
@@ -116,7 +114,6 @@ body {
 }
 
 .year > span {
-  font-size: 175px;
   font-weight: 700;
   font-family: "Poppins", sans-serif;
   letter-spacing: -12px;
@@ -132,21 +129,6 @@ body {
   animation: new_animation 5s ease-in-out 1.5s forwards;
 }
 
-@keyframes new_animation {
-  0% {
-    right: -100px;
-  }
-  40% {
-    right: 420px;
-  }
-  90% {
-    right: 420px;
-  }
-  100% {
-    right: 530px;
-    color: yellow;
-  }
-}
 
 .balloon{
   width: 100px;
@@ -186,66 +168,6 @@ body {
   left: 50%;
   margin-left: -2px;
   bottom: -110px;
-}
-@-webkit-keyframes in_and_out_balloon {
-  0% {
-    right: 0%;
-  }
-  40% {
-    right: 50%;
-    margin-right: -300px;
-  }
-  50% {
-    right: 50%;
-    margin-right: -200px;
-    top: 50%;
-  }
-  100% {
-    top: -100%;
-    right: 50%;
-  }
-}
-@keyframes in_and_out_balloon {
-  0% {
-    right: 0%;
-  }
-  40% {
-    right: 50%;
-    margin-right: -300px;
-  }
-  50% {
-    right: 50%;
-    margin-right: -200px;
-    top: 50%;
-  }
-  100% {
-    top: -200%;
-    right: 50%;
-  }
-}
-@-webkit-keyframes entry_balloon {
-  0% {
-    -webkit-transform: rotate(-30deg);
-            transform: rotate(-30deg);
-    width: 40px;
-  }
-  100% {
-    -webkit-transform: rotate(-150deg);
-            transform: rotate(-150deg);
-    width: 70px;
-  }
-}
-@keyframes entry_balloon {
-  0% {
-    -webkit-transform: rotate(-30deg);
-            transform: rotate(-30deg);
-    width: 40px;
-  }
-  100% {
-    -webkit-transform: rotate(-150deg);
-            transform: rotate(-150deg);
-    width: 70px;
-  }
 }
 
 .firework {
@@ -450,59 +372,4 @@ body {
   h1 {
     font-size: 30px;
   }
-}
-/* ----------- Google Pixel ----------- */
-
-/* Portrait and Landscape */
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 3) {
-
-}
-
-/* Portrait */
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 3) 
-  and (orientation: portrait) {
-
-}
-
-/* Landscape */
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 3) 
-  and (orientation: landscape) {
-
-}
-
-/* ----------- Google Pixel XL ----------- */
-
-/* Portrait and Landscape */
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 4) {
-
-}
-
-/* Portrait */
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 4) 
-  and (orientation: portrait) {
-
-}
-
-/* Landscape */
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 4) 
-  and (orientation: landscape) {
-
 }
