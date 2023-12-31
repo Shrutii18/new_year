@@ -1,0 +1,270 @@
+@media only screen and (min-device-width: 300px) and (max-device-width: 768px) {
+    @-webkit-keyframes in_and_out_balloon {
+  0% {
+    right: 0%;
+  }
+  40% {
+    right: 50%;
+    margin-right: -300px;
+  }
+  50% {
+    right: 70%;
+    margin-right: -200px;
+    top: 50%;
+  }
+  100% {
+    top: -200%;
+    right: 100px;
+  }
+}
+@keyframes in_and_out_balloon {
+  0% {
+    right: 0%;
+  }
+  40% {
+    right: 300px;
+    margin-right: -300px;
+  }
+  50% {
+    right: 320px;
+    margin-right: -200px;
+    top: 50%;
+  }
+  100% {
+    top: -500%;
+    right: 320px;
+  }
+}
+@-webkit-keyframes entry_balloon {
+  0% {
+    -webkit-transform: rotate(-30deg);
+            transform: rotate(-30deg);
+    width: 40px;
+  }
+  100% {
+    -webkit-transform: rotate(-150deg);
+            transform: rotate(-150deg);
+    width: 70px;
+  }
+}
+@keyframes entry_balloon {
+  0% {
+    -webkit-transform: rotate(-30deg);
+            transform: rotate(-30deg);
+    width: 40px;
+  }
+  100% {
+    -webkit-transform: rotate(-150deg);
+            transform: rotate(-150deg);
+    width: 70px;
+  }
+  
+} /* Adjust styles for screens up to 480px wide */
+  .msg {
+    font-size: 80px;
+    top: 300px;
+  }
+
+  .year {
+    top: 470px;
+    font-size: 70px;
+  }
+  .year > span {
+  letter-spacing: -5px;
+}
+@keyframes new_animation {
+  0% {
+    right: -100px;
+  }
+  40% {
+    right: 80px;
+  }
+  90% {
+    right: 140px;
+  }
+  100% {
+    right: 145px;
+    color: yellow;
+  }
+}
+
+  /* Add more adjustments as needed for even smaller screens */
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1500px) {
+    @-webkit-keyframes in_and_out_balloon {
+  0% {
+    right: 0%;
+  }
+  40% {
+    right: 50%;
+    margin-right: -300px;
+  }
+  50% {
+    right: 50%;
+    margin-right: -200px;
+    top: 50%;
+  }
+  100% {
+    top: -200%;
+    right: 50%;
+  }
+}
+@keyframes in_and_out_balloon {
+  0% {
+    right: 0%;
+  }
+  40% {
+    right: 50%;
+    margin-right: -300px;
+  }
+  50% {
+    right: 50%;
+    margin-right: -200px;
+    top: 50%;
+  }
+  100% {
+    top: -500%;
+    right: 50%;
+  }
+}
+@-webkit-keyframes entry_balloon {
+  0% {
+    -webkit-transform: rotate(-30deg);
+            transform: rotate(-30deg);
+    width: 40px;
+  }
+  100% {
+    -webkit-transform: rotate(-150deg);
+            transform: rotate(-150deg);
+    width: 70px;
+  }
+}
+@keyframes entry_balloon {
+  0% {
+    -webkit-transform: rotate(-30deg);
+            transform: rotate(-30deg);
+    width: 40px;
+  }
+  100% {
+    -webkit-transform: rotate(-150deg);
+            transform: rotate(-150deg);
+    width: 70px;
+  }
+}
+ /* Adjust styles for screens up to 480px wide */
+  .msg {
+    font-size: 150px;
+    top: 250px;
+  }
+
+  .year {
+    top: 450px;
+    font-size: 200px;
+  }
+  @keyframes new_animation {
+  0% {
+    right: -100px;
+  }
+  40% {
+    right: 120px;
+  }
+  90% {
+    right: 150px;
+  }
+  100% {
+    right: 220px;
+    color: yellow;
+  }
+}
+  /* Add more adjustments as needed for even smaller screens */
+}
+
+@media only screen and (min-device-width: 1500px) and (max-device-width: 2000px) {
+    @-webkit-keyframes in_and_out_balloon {
+  0% {
+    right: 0%;
+  }
+  40% {
+    right: 50%;
+    margin-right: -300px;
+  }
+  50% {
+    right: 50%;
+    margin-right: -200px;
+    top: 50%;
+  }
+  100% {
+    top: -200%;
+    right: 50%;
+  }
+}
+@keyframes in_and_out_balloon {
+  0% {
+    right: 0%;
+  }
+  40% {
+    right: 50%;
+    margin-right: -300px;
+  }
+  50% {
+    right: 50%;
+    margin-right: -200px;
+    top: 50%;
+  }
+  100% {
+    top: -500%;
+    right: 50%;
+  }
+}
+@-webkit-keyframes entry_balloon {
+  0% {
+    -webkit-transform: rotate(-30deg);
+            transform: rotate(-30deg);
+    width: 40px;
+  }
+  100% {
+    -webkit-transform: rotate(-150deg);
+            transform: rotate(-150deg);
+    width: 70px;
+  }
+}
+@keyframes entry_balloon {
+  0% {
+    -webkit-transform: rotate(-30deg);
+            transform: rotate(-30deg);
+    width: 40px;
+  }
+  100% {
+    -webkit-transform: rotate(-150deg);
+            transform: rotate(-150deg);
+    width: 70px;
+  }
+}
+ /* Adjust styles for screens up to 480px wide */
+  .msg {
+    font-size: 150px;
+    top: 250px;
+  }
+
+  .year {
+    top: 450px;
+    font-size: 200px;
+  }
+  @keyframes new_animation {
+  0% {
+    right: -100px;
+  }
+  40% {
+    right: 380px;
+  }
+  90% {
+    right: 400px;
+  }
+  100% {
+    right: 470px;
+    color: yellow;
+  }
+}
+  /* Add more adjustments as needed for even smaller screens */
+}
